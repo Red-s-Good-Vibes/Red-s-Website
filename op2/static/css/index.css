@@ -3,6 +3,16 @@ html, body{
 	height: 100%;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+  .example {
+	-ms-overflow-style: none;
+  }
+
 h1{
 	font-family: 'rollent';
 	font-size: 3em;
@@ -62,12 +72,22 @@ h1{
 	height: 25em;
 	background-attachment: scroll;
 	margin: auto;
-	padding-top: 15%;
+	padding-top: 12%;
 	display: block;
+	font-family: 'rollent';
+	text-shadow: .1em .1em #eaeaea, -.1em -.1em #eaeaea, -.1em .1em #eaeaea, .1em -.1em #eaeaea;
 }
-
+.logo .topRow{
+	font-size: 20em;
+	color: rgb(217, 38, 38);
+	height: 1.1em;
+}
+.logo .bottomRow{
+	font-size: 9em;
+}
 .img1{
 	background-image: url('../media/green-minivan-near-brown-wooden-crate-and-brown-food-truck-221357.jpg');
+	margin: -7em;
 }
 .img2{
 	background-image: url('../media/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.jpg');
@@ -77,6 +97,7 @@ h1{
 	width: 100%;
 	min-height: 20em;
 	height: fit-content;
+	padding-top: 7em;
 }
 
 .articleTitle{
@@ -95,5 +116,6 @@ h1{
 	font-size: 1.25em;
 	width:75%;
 	margin: auto;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
+	text-align: justify;
 }
