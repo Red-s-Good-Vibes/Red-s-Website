@@ -83,8 +83,12 @@ h1{
 	margin: auto;
 	display: block;
 	margin-bottom: 1em;
-	border-bottom: 2px solid rgb(217, 38, 38);
 	width: max-content;
+}
+
+.articleTitle h1{
+	border-bottom: 2px solid rgb(217, 38, 38);
+
 }
 
 .articleContent{
