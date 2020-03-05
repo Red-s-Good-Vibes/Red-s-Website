@@ -1,0 +1,11 @@
+$(document).ready(()=>{
+    $(".hamburger").click(()=>{
+        if($(".bar1").hasClass("change")){
+            $(".change").removeClass("change")
+        }else{
+            $(".bar1").addClass("change")
+            $(".bar2").addClass("change")
+            $(".bar3").addClass("change")
+        }
+    })
+})
