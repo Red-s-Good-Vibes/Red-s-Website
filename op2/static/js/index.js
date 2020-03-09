@@ -6,6 +6,10 @@ $(document).ready(()=>{
             $(".bar1").addClass("change")
             $(".bar2").addClass("change")
             $(".bar3").addClass("change")
+            $(".overlay").addClass("change")
         }
+    })
+    $(".menuOption").click(()=>{
+        $(".change").removeClass("change")
     })
 })
