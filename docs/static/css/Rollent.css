@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Rollent';
+    src: url('../fonts/rollent/Rollent.eot');
+    src: url('../fonts/rollent/Rollent.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rollent/Rollent.woff2') format('woff2'),
+        url('../fonts/rollent/Rollent.woff') format('woff'),
+        url('../fonts/rollent/Rollent.ttf') format('truetype'),
+        url('../fonts/rollent/Rollent.svg#Rollent') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
