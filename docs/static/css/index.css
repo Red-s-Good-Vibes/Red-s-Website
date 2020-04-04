@@ -14,7 +14,7 @@ body {
 }
 
 h1{
-	font-family: 'rollent';
+	font-family: 'Lobster Two';
 	font-size: 3.5em;
 	display: inline-block;
 
@@ -173,11 +173,11 @@ h1{
 }
 .img1{
 	background-image: url('../media/web5.png');
-	padding-top: 10em;
+	padding-top: 15em;
 }
 .img2{
 	background-image: url('../media/web2.png');
-	padding-top: 22em;
+	padding-top: 60em;
 }
 
 /*Article style*/
