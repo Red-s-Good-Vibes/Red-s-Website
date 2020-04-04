@@ -1,15 +1,14 @@
 html{
 	height: 100vh;
-	overflow-x: hidden;
 }
 
 body{
 	margin: 0;
 	height: 100%;
 }
-body::-webkit-scrollbar {
+/*body::-webkit-scrollbar {
 	display: none;
-}
+}*/
 body {
 	-ms-overflow-style: none;
 }
@@ -154,36 +153,31 @@ h1{
 	background-attachment: scroll;
 	margin: auto;
 	display: block;
-	font-family: 'rollent';
-	text-shadow: .1em .1em #eaeaea, -.1em -.1em #eaeaea, -.1em .1em #eaeaea, .1em -.1em #eaeaea;
-}
-.logo .topRow{
-	font-size: 20em;
-	color: #c33;
-	height: 1.1em;
-}
-.logo .bottomRow{
-	font-size: 9em;
+	background-image: url("../media/testLogo1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .parallax{
 	/* Full height */
 	height: 100%;
-	
+	width: 100%;
+	box-sizing: border-box;
+
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 12em;
+	/*padding: 12em;*/
 }
 .img1{
-	background-image: url('../media/green-minivan-near-brown-wooden-crate-and-brown-food-truck-221357.jpg');
-	padding: 10em;
+	background-image: url('../media/web5.png');
+	padding-top: 10em;
 }
 .img2{
-	background-image: url('../media/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.jpg');
-	padding: 22em;
+	background-image: url('../media/web2.png');
+	padding-top: 22em;
 }
 
 /*Article style*/
@@ -222,11 +216,11 @@ h1{
 }
 
 #whereWeStop.article{
-	color: white;
-	background-color: #c22;
+	color: black;
+	background-color: white;
 }
 #whereWeStop .articleTitle h1{
-	border-color: black;
+	border-color: red;
 	color: black;
 	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
 
@@ -247,9 +241,10 @@ h1{
 }
 
 .footer{
-	height: 10em;
-	width: 100vw;
+	height: 6em;
+	width: 100%;
 	background: linear-gradient(#555 0%, black 10%);
+	box-sizing: border-box;
 	padding: 1.5em;
 }
 
