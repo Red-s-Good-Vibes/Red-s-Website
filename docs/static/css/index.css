@@ -148,19 +148,16 @@ h1{
 
 
 .logo{
-	width: 25em;
-	height: 25em;
 	background-attachment: scroll;
-	margin: auto;
 	display: block;
 	background-image: url("../media/redsLogo.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+	margin: auto;
+	width: fit-content;
+	height: fit-content;
+	padding: 15em;
+	margin-top: -5em;
 }
 
 .parallax{
@@ -175,11 +172,11 @@ h1{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 12em;
 }
 .img1{
 	background-image: url('../media/web5.png');
-	padding-top: 40em;
+	margin-top: 8em;
+	padding-bottom: 7em;
 }
 .img2{
 	background-image: url('../media/web2.png');
@@ -212,6 +209,7 @@ h1{
 	margin: auto;
 	padding-bottom: 4em;
 	text-align: justify;
+	font-family: 'Roboto';
 }
 
 #whatIsReds.article{
