@@ -154,10 +154,8 @@ h1{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: auto;
-	width: fit-content;
-	height: fit-content;
-	padding: 15em;
-	margin-top: -5em;
+	width: 25em;
+	height: 25em;
 }
 
 .parallax{
@@ -175,8 +173,7 @@ h1{
 }
 .img1{
 	background-image: url('../media/web5.png');
-	margin-top: 8em;
-	padding-bottom: 7em;
+	padding-top: 15em;
 }
 .img2{
 	background-image: url('../media/web2.png');
