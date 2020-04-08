@@ -110,6 +110,7 @@ h1{
 }
 .overlay, .overlay *{
 	transition: .5s;
+	z-index: 998;
 }
 
 .overlay.change{
