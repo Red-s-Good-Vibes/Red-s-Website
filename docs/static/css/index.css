@@ -1,21 +1,20 @@
 html{
 	height: 100vh;
-	overflow-x: hidden;
 }
 
 body{
 	margin: 0;
 	height: 100%;
 }
-body::-webkit-scrollbar {
+/*body::-webkit-scrollbar {
 	display: none;
-}
+}*/
 body {
 	-ms-overflow-style: none;
 }
 
 h1{
-	font-family: 'rollent';
+	font-family: 'Lobster Two';
 	font-size: 3.5em;
 	display: inline-block;
 
@@ -34,33 +33,33 @@ h1{
 
 .hamburger{
 	height: 100%;
-	width: 4em;
-	top: 0;
-	left: 0;
+	width: 3.5em;
+	top: 12.25%;
+	left: .5em;
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
 }
 
 .bar1, .bar2, .bar3 {
-	width: 3.75em;
-	height: .571em;
+	width: 2.8125em;
+	height: .42825em;
 	background-color: #eaeaea;
 	margin: auto;
-	margin-top: .571em;
+	margin-top: .42825em;
 	transition: 0.4s;
 	border-radius: .285em;
 }
 .change.bar1{
-	-webkit-transform: rotate(-45deg) translate(-.914em, .8em) ;
-	transform: rotate(-45deg) translate(-.914em, .8em) ;
+	-webkit-transform: rotate(-45deg) translate(-.6855em, .7em) ;
+	transform: rotate(-45deg) translate(-.6855em, .7em) ;
 }
 .change.bar2{
 	opacity: 0;
 }
 .change.bar3{
-	-webkit-transform: rotate(45deg) translate(-.914em, -.8em) ;
-	transform: rotate(45deg) translate(-.914em, -.8em);
+	-webkit-transform: rotate(45deg) translate(-.45em, -.5em) ;
+	transform: rotate(45deg) translate(-.45em, -.5em);
 }
 
 
@@ -111,6 +110,7 @@ h1{
 }
 .overlay, .overlay *{
 	transition: .5s;
+	z-index: 998;
 }
 
 .overlay.change{
@@ -120,10 +120,10 @@ h1{
 .menu{
 	width: 100%;
 	background-color: rgb(32, 32, 32);
-	padding: .5em;
+	padding: .25em;
 	display: grid;
 	box-sizing: border-box;
-	grid-row-gap: .5em;
+	grid-row-gap: .25em;
 
 }
 .menu a{
@@ -135,56 +135,55 @@ h1{
 	min-width: max-content;
 	margin: auto;
 	margin-bottom: .2em;
-	background-color:#c33;
+	background-color: #CC3434;
 	text-align: center;
 	box-sizing: border-box;
-	padding: .25em;
+	padding: .35em;
 }
 
 .opContent{
 	display: inline-block;
-	font-size: 2.5em;
+	font-size: 1.25em;
 	color: white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .logo{
+	background-attachment: scroll;
+	display: block;
+	background-image: url("../media/redsLogo.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin-top: calc(calc(100vh - 25em) / 2);
+	margin-bottom: calc(calc(90vh - 25em) / 2);
 	width: 25em;
 	height: 25em;
-	background-attachment: scroll;
-	margin: auto;
-	display: block;
-	font-family: 'rollent';
-	text-shadow: .1em .1em #eaeaea, -.1em -.1em #eaeaea, -.1em .1em #eaeaea, .1em -.1em #eaeaea;
-}
-.logo .topRow{
-	font-size: 20em;
-	color: #c33;
-	height: 1.1em;
-}
-.logo .bottomRow{
-	font-size: 9em;
 }
 
 .parallax{
 	/* Full height */
 	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
 	
+
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 12em;
 }
 .img1{
-	background-image: url('../media/green-minivan-near-brown-wooden-crate-and-brown-food-truck-221357.jpg');
-	padding: 10em;
+	background-image: url('../media/web5.png');
+	/*padding-top: calc(calc(100vh - 25em) / 2);*/
+	contain: content;
+	
 }
 .img2{
-	background-image: url('../media/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.jpg');
-	padding: 22em;
+	background-image: url('../media/web2.png');
+	padding-top: 35em;
 }
 
 /*Article style*/
@@ -200,6 +199,7 @@ h1{
 	display: block;
 	margin-bottom: 1em;
 	width: max-content;
+	padding-top: 1.5em;
 }
 
 .articleTitle h1{
@@ -212,6 +212,7 @@ h1{
 	margin: auto;
 	padding-bottom: 4em;
 	text-align: justify;
+	font-family: 'Roboto';
 }
 
 #whatIsReds.article{
@@ -219,15 +220,15 @@ h1{
 	background-color: white;
 }
 #whatIsReds .articleTitle h1{
-	border-color: red;
+	border-color: #CC3434;
 }
 
 #whereWeStop.article{
-	color: white;
-	background-color: #c22;
+	color: black;
+	background-color: white;
 }
 #whereWeStop .articleTitle h1{
-	border-color: black;
+	border-color: #CC3434;
 	color: black;
 	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
 
@@ -255,9 +256,10 @@ h1{
 }
 
 .footer{
-	height: 10em;
-	width: 100vw;
+	height: 6em;
+	width: 100%;
 	background: linear-gradient(#555 0%, black 10%);
+	box-sizing: border-box;
 	padding: 1.5em;
 }
 
