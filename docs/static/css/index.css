@@ -215,6 +215,15 @@ h1{
 	width:75%;
 	margin: auto;
 	padding-bottom: 4em;
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+.mapContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 4em;
 	text-align: justify;
 	font-family: 'Roboto';
 }
