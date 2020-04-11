@@ -20,6 +20,13 @@ h1{
 
 }
 
+h2{
+	font-size: 1em;
+	display: inline-block;
+	color:white;
+
+}
+
 .header{
 	height: 4em;
 	position: fixed;
@@ -184,10 +191,14 @@ h1{
 .img2{
 	background-image: url('../media/web2.png');
 	padding-top: 35em;
+	filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 .img3{
 	background-image: url('../media/web9.png');
 	padding-top: 35em;
+	filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 
 /*Article style*/
