@@ -212,9 +212,7 @@ h2{
 .articleTitle{
 	margin: auto;
 	display: block;
-	margin-bottom: 1em;
-	width: max-content;
-	padding-top: 1.5em;
+	width: max-content; 
 }
 
 .articleTitle h1{
@@ -225,7 +223,14 @@ h2{
 	font-size: 1.25em;
 	width:75%;
 	margin: auto;
-	padding-bottom: 4em;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.lastarticleContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 2em;
 	text-align: center;
 	font-family: 'Roboto';
 }
