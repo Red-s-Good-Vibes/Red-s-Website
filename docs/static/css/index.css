@@ -244,6 +244,14 @@ h2{
 	font-family: 'Roboto';
 }
 
+#whatIsRedsAnchor{
+	visibility: hidden;
+	padding-bottom: 7%;
+}
+#dropOffAnchor{
+	visibility: hidden;
+	padding-bottom: 3%;
+}
 #whatIsReds.article{
 	color: black;
 	background-color: white;
