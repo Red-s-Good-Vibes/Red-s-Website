@@ -34,10 +34,11 @@ h2{
 	top: 0;
 	background-color: black;
 	z-index: 999;
+	
 }
 
 
-
+/*
 .hamburger{
 	height: 100%;
 	width: 3.5em;
@@ -69,7 +70,7 @@ h2{
 	transform: rotate(45deg) translate(-.45em, -.5em);
 }
 
-
+*/
 .socialMedia .icon{
 	float: right;
 	padding:1em 1em 1em 1em;
@@ -106,6 +107,7 @@ h2{
 .icon.fb:hover img{
 	background-color: rgba(255, 255, 255, 0);
 }
+/*
 .overlay{
 	position: fixed;
 	height: 100%;
@@ -123,15 +125,12 @@ h2{
 .overlay.change{
 	left: 0;
 }
-
+*/
 .menu{
-	width: 100%;
-	background-color: rgb(32, 32, 32);
-	padding: .25em;
-	display: grid;
+	width: 90.5%;
+	padding:1em 1em 1em 1em;
+	display: inline-block;
 	box-sizing: border-box;
-	grid-row-gap: .25em;
-
 }
 .menu a{
 	text-decoration: none;
@@ -139,16 +138,16 @@ h2{
 .menuOption{
 	height: fit-content;
 	width: 100%;
-	min-width: max-content;
 	margin: auto;
 	margin-bottom: .2em;
 	background-color: #CC3434;
 	text-align: center;
-	box-sizing: border-box;
 	padding: .35em;
+	display: table-cell;
 }
 
 .opContent{
+	width: 14em;
 	display: inline-block;
 	font-size: 1.25em;
 	color: white;
@@ -189,16 +188,16 @@ h2{
 	
 }
 .img2{
-	background-image: url('../media/web2.png');
+	background-image: url('../media/web11 bw.png');
 	padding-top: 35em;
 	filter: blur(1px);
-  -webkit-filter: blur(1px);
+  	-webkit-filter: blur(1px);
 }
 .img3{
-	background-image: url('../media/web9.png');
-	padding-top: 35em;
+	background-image: url('../media/web2.png');
+	padding-top: 45em;
 	filter: blur(1px);
-  -webkit-filter: blur(1px);
+  	-webkit-filter: blur(1px);
 }
 
 /*Article style*/
