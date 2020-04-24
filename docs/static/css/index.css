@@ -204,6 +204,12 @@ h1{
 	background-image: url('../media/web2.png');
 	padding-top: 35em;
 }
+.img3{
+	background-image: url('../media/web9.png');
+	padding-top: 35em;
+	filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
 
 /*Article style*/
 
@@ -233,6 +239,14 @@ h1{
 	text-align: justify;
 	font-family: 'Roboto';
 }
+.lastarticleContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: 'Roboto';
+}
 
 #whatIsReds.article{
 	color: black;
@@ -257,7 +271,8 @@ h1{
 .map{
 	position: relative;
 	padding-top: 50%;
-	width: 100%;
+	width: 80%;
+	padding-left: 7%;
 }
 
 .map iframe{
