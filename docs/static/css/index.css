@@ -62,7 +62,12 @@ h1{
 	transform: rotate(45deg) translate(-.45em, -.5em);
 }
 
-
+.socialMedia2 .icon{
+	float: left;
+	padding: 0.5em 1em 1em 1em;
+	display: block;
+	margin: auto;
+}
 .socialMedia .icon{
 	float: right;
 	padding:1em 1em 1em 1em;
@@ -71,6 +76,9 @@ h1{
 	display: block;
 }
 .socialMedia *{
+	transition: .25s;
+}
+.socialMedia2 *{
 	transition: .25s;
 }
 .icon img{
@@ -132,6 +140,17 @@ h1{
 .menuOption{
 	height: fit-content;
 	width: 100%;
+	min-width: max-content;
+	margin: auto;
+	margin-bottom: .2em;
+	background-color: #CC3434;
+	text-align: center;
+	box-sizing: border-box;
+	padding: .35em;
+}
+.menuOptionSupporters{
+	height: fit-content;
+	width: 11.7em;
 	min-width: max-content;
 	margin: auto;
 	margin-bottom: .2em;
@@ -256,13 +275,29 @@ h1{
 }
 
 .footer{
-	height: 6em;
-	width: 100%;
+	height: 2.5em;
+	width: 97.5%;
 	background: linear-gradient(#555 0%, black 10%);
-	box-sizing: border-box;
 	padding: 1.5em;
+	margin-top: 4em;
 }
 
 .paypalButton{
 	float: right;
+}
+
+.contact{
+	margin-left: 34%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.supporters{
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
 }
