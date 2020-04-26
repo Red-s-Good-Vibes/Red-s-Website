@@ -128,6 +128,7 @@ h2{
 */
 .menu{
 	width: 90.5%;
+	height: 3.75em;
 	padding:1em 1em 1em 1em;
 	display: inline-block;
 	box-sizing: border-box;
@@ -254,7 +255,7 @@ h2{
 
 #donateAnchor{
 	visibility: hidden;
-	padding-bottom: 8%;
+	padding-bottom: 4.2%;
 }
 #whatIsReds.article{
 	color: black;
