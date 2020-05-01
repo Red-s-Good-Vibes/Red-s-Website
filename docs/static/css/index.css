@@ -20,6 +20,13 @@ h1{
 
 }
 
+h2{
+	font-size: 1em;
+	display: inline-block;
+	color:white;
+
+}
+
 .header{
 	height: 4em;
 	position: fixed;
@@ -27,10 +34,11 @@ h1{
 	top: 0;
 	background-color: black;
 	z-index: 999;
+	
 }
 
 
-
+/*
 .hamburger{
 	height: 100%;
 	width: 3.5em;
@@ -107,6 +115,7 @@ h1{
 .icon.fb:hover img{
 	background-color: rgba(255, 255, 255, 0);
 }
+/*
 .overlay{
 	position: fixed;
 	height: 100%;
@@ -124,15 +133,13 @@ h1{
 .overlay.change{
 	left: 0;
 }
-
+*/
 .menu{
-	width: 100%;
-	background-color: rgb(32, 32, 32);
-	padding: .25em;
-	display: grid;
+	width: 90.5%;
+	height: 4em;
+	padding:1em 1em 1em 1em;
+	display: inline-block;
 	box-sizing: border-box;
-	grid-row-gap: .25em;
-
 }
 .menu a{
 	text-decoration: none;
@@ -140,13 +147,12 @@ h1{
 .menuOption{
 	height: fit-content;
 	width: 100%;
-	min-width: max-content;
 	margin: auto;
 	margin-bottom: .2em;
 	background-color: #CC3434;
 	text-align: center;
-	box-sizing: border-box;
 	padding: .35em;
+	display: table-cell;
 }
 .menuOptionSupporters{
 	height: fit-content;
@@ -161,6 +167,7 @@ h1{
 }
 
 .opContent{
+	width: 14em;
 	display: inline-block;
 	font-size: 1.25em;
 	color: white;
@@ -195,14 +202,22 @@ h1{
 	background-size: cover;
 }
 .img1{
-	background-image: url('../media/web5.png');
+	background-image: url('../media/web11 bw.png');
 	/*padding-top: calc(calc(100vh - 25em) / 2);*/
 	contain: content;
 	
 }
 .img2{
-	background-image: url('../media/web2.png');
+	background-image: url('../media/web5.png');
 	padding-top: 35em;
+	filter: blur(1px);
+  	-webkit-filter: blur(1px);
+}
+.img3{
+	background-image: url('../media/web2.png');
+	padding-top: 45em;
+	filter: blur(1px);
+  	-webkit-filter: blur(1px);
 }
 .img3{
 	background-image: url('../media/web9.png');
@@ -222,9 +237,7 @@ h1{
 .articleTitle{
 	margin: auto;
 	display: block;
-	margin-bottom: 1em;
-	width: max-content;
-	padding-top: 1.5em;
+	width: max-content; 
 }
 
 .articleTitle h1{
@@ -232,6 +245,22 @@ h1{
 }
 
 .articleContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.lastarticleContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+.mapContent{
 	font-size: 1.25em;
 	width:75%;
 	margin: auto;
@@ -248,6 +277,19 @@ h1{
 	font-family: 'Roboto';
 }
 
+#whatIsRedsAnchor{
+	visibility: hidden;
+	padding-bottom: 4.5%;
+}
+#dropOffAnchor{
+	visibility: hidden;
+	padding-bottom: 2.5%;
+}
+
+#donateAnchor{
+	visibility: hidden;
+	padding-bottom: 4.2%;
+}
 #whatIsReds.article{
 	color: black;
 	background-color: white;
@@ -264,8 +306,11 @@ h1{
 	border-color: #CC3434;
 	color: black;
 	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
-
-
+}
+#donateSoon .articleTitle h1{
+	border-color: #CC3434;
+	color: black;
+	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
 }
 
 .map{
@@ -284,9 +329,11 @@ h1{
 }
 
 .mapText{
-	margin-top: 4em;
+	margin-top: 1em;
 	width: 100%;
 	height: fit-content;
+	margin-bottom: 1em;
+	text-align: center;
 }
 
 .footer{
