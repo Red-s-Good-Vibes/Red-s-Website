@@ -69,7 +69,7 @@ h2{
 	-webkit-transform: rotate(45deg) translate(-.45em, -.5em) ;
 	transform: rotate(45deg) translate(-.45em, -.5em);
 }
-
+*/
 .socialMedia2 .icon{
 	float: left;
 	padding: 0.5em 1em 1em 1em;
@@ -125,6 +125,7 @@ h2{
 	background-color: rgba(0, 0, 0, .5);
 	min-width: min-content;
 }
+
 .overlay, .overlay *{
 	transition: .5s;
 	z-index: 998;
@@ -251,14 +252,14 @@ h2{
 	text-align: center;
 	font-family: 'Roboto';
 }
-.lastarticleContent{
+/*.lastarticleContent{
 	font-size: 1.25em;
 	width:75%;
 	margin: auto;
 	padding-bottom: 2em;
 	text-align: center;
 	font-family: 'Roboto';
-}
+}*/
 
 .mapContent{
 	font-size: 1.25em;
