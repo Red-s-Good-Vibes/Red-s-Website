@@ -303,13 +303,29 @@ h2{
 }
 
 .footer{
-	height: 6em;
+	height: 10em;
 	width: 100%;
 	background: linear-gradient(#555 0%, black 10%);
-	box-sizing: border-box;
 	padding: 1.5em;
+	margin-top: 4em;
 }
 
 .paypalButton{
 	float: right;
+}
+
+.contact{
+	margin-left: 34%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.supporters{
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
 }
