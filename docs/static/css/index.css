@@ -68,6 +68,7 @@ h2{
 	-webkit-transform: rotate(45deg) translate(-.914em, -.8em) ;
 	transform: rotate(45deg) translate(-.914em, -.8em);
 }
+*/
 .socialMedia2 .icon{
 	float: left;
 	padding: 0.5em 1em 1em 1em;
@@ -82,6 +83,9 @@ h2{
 	display: block;
 }
 .socialMedia *{
+	transition: .25s;
+}
+.socialMedia2 *{
 	transition: .25s;
 }
 .icon img{
@@ -206,16 +210,8 @@ h2{
 	padding: 10em;
 }
 .img2{
-	background-image: url('../media/web5.png');
-	padding-top: 35em;
-	filter: blur(1px);
-  	-webkit-filter: blur(1px);
-}
-.img3{
-	background-image: url('../media/web2.png');
-	padding-top: 45em;
-	filter: blur(1px);
-  	-webkit-filter: blur(1px);
+	background-image: url('../media/three-persons-sitting-on-the-stairs-talking-with-each-other-1438072.jpg');
+	padding: 22em;
 }
 
 /*Article style*/
@@ -260,6 +256,14 @@ h2{
 	padding-bottom: 4em;
 	text-align: justify;
 }
+.lastarticleContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: 'Roboto';
+}
 
 #whatIsRedsAnchor{
 	visibility: hidden;
@@ -301,7 +305,8 @@ h2{
 	background-image: url('../media/map-temp.png');
 	background-size: contain;
 	padding-top: 50%;
-	width: 100%;
+	width: 80%;
+	padding-left: 7%;
 }
 
 .mapText{
@@ -313,13 +318,29 @@ h2{
 }
 
 .footer{
-	height: 6em;
-	width: 100%;
+	height: 10em;
+	width: 100vw;
 	background: linear-gradient(#555 0%, black 10%);
-	box-sizing: border-box;
 	padding: 1.5em;
+	margin-top: 4em;
 }
 
 .paypalButton{
 	float: right;
+}
+
+.contact{
+	margin-left: 34%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.supporters{
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
 }
