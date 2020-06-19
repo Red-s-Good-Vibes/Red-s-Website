@@ -1,0 +1,408 @@
+html{
+	height: 100vh;
+}
+
+body{
+	margin: 0;
+	height: 100%;
+}
+body {
+	-ms-overflow-style: none;
+}
+
+h1{
+	font-family: 'Lobster Two';
+	font-size: 3.5em;
+	display: inline-block;
+
+}
+
+h2{
+	font-size: 1em;
+	display: inline-block;
+	color:white;
+}
+
+.header{
+	height: 4em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: black;
+	z-index: 999;
+	
+}
+
+.centerimage{
+	margin-top: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:25%
+}
+.newsimage{
+	margin-top: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:25%
+}
+
+.hamburger{
+	margin-top: 0.5em;
+	display: none;
+}
+
+.overlay{
+	display: none;
+}
+
+.socialMedia .icon{
+	float: right;
+	padding:1em 1em 1em 1em;
+	position: absolute;
+	top: 0;
+	display: block;
+}
+.socialMedia *{
+	transition: .25s;
+}
+.icon img{
+	background-color: white;
+	height: 2em;
+	width: 2em;
+	padding: 0;
+}
+.instagram{
+	right: 0;
+}
+.instagram .iconBG{
+	height: 2em;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.fb{
+	right: 4em;
+}
+.fb .iconBG{
+	height: 2em;
+	background-color: #4267B2;
+}
+.icon.instagram:hover img{
+	background-color: rgba(255, 255, 255, 0);
+}
+.icon.fb:hover img{
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.barMenu{
+	width: 90.5%;
+	height: 4em;
+	padding:1em 1em 1em 1em;
+	display: table;
+	box-sizing: border-box;
+}
+.menu a{
+	text-decoration: none;
+}
+.menuOption{
+	height: fit-content;
+	width: 100%;
+	margin: auto;
+	margin-bottom: .2em;
+	background-color: #CC3434;
+	text-align: center;
+	padding: .35em;
+	display: table-cell;
+}
+
+.opContent{
+	width: 100%;
+	display: inline-block;
+	font-size: 1.25em;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.logo{
+	background-attachment: scroll;
+	display: block;
+	background-image: url("../media/redsLogo.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin-top: calc(calc(100vh - 25em) / 2);
+	margin-bottom: calc(calc(90vh - 25em) / 2);
+	width: 25em;
+	height: 25em;
+}
+
+.parallax{
+	/* Full height */
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img1{
+	background-image: url('../media/web11 bw.png');
+	/*padding-top: calc(calc(100vh - 25em) / 2);*/
+	contain: content;
+	
+}
+.img2{
+	background-image: url('../media/web5.png');
+	padding-top: 35em;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+}
+.img3{
+	background-image: url('../media/web2.png');
+	padding-top: 45em;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+}
+
+/*Article style*/
+
+.article{
+	width: 100%;
+	min-height: 20em;
+	height: fit-content;
+}
+
+.articleTitle{
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.articleTitle h1{
+	border-bottom: 2px solid;
+	width: fit-content;
+
+}
+
+.articleContent{
+	font-size: 1.25em;
+	width:80%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.lastarticleContent{
+	font-size: 1.25em;
+	width:80%;
+	margin: auto;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+.mapContent{
+	font-size: 1.25em;
+	width:75%;
+	margin: auto;
+	padding-bottom: 4em;
+	text-align: justify;
+	font-family: 'Roboto';
+}
+
+#whatIsRedsAnchor{
+	visibility: hidden;
+	padding-bottom: 4.5%;
+}
+#dropOffAnchor{
+	visibility: hidden;
+	padding-bottom: 2.5%;
+}
+
+#donateAnchor{
+	visibility: hidden;
+	padding-bottom: 4.2%;
+}
+#whatIsReds.article{
+	color: black;
+	background-color: white;
+}
+#whatIsReds .articleTitle h1{
+	border-color: #CC3434;
+}
+
+#whereWeStop.article{
+	color: black;
+	background-color: white;
+}
+#whereWeStop .articleTitle h1{
+	border-color: #CC3434;
+	color: black;
+	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
+}
+#donateSoon .articleTitle h1{
+	border-color: #CC3434;
+	color: black;
+	text-shadow: 1px 1px #eaeaea, -1px -1px #eaeaea, -1px 1px #eaeaea, 1px -1px #eaeaea;
+}
+
+.map{
+	position: relative;
+	padding-top: 50%;
+	width: 100%;
+}
+
+.map iframe{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.mapText{
+	margin-top: 1em;
+	width: 100%;
+	height: fit-content;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.footer{
+	height: 15em;
+	width: 100%;
+	background: linear-gradient(#555 0%, black 10%);
+	padding-top: 5em;
+	margin-top: 4em;
+	align-content: center;
+	
+}
+
+.paypalButton{
+	float: right;
+}
+
+.contact{
+
+	float: center;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.supporters{
+	margin-top: 3%;
+	float: center;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.developers{
+	float: center;
+	text-align: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+@media only screen and (max-width:600px){
+	
+	.barMenu{
+		display: none;
+	}
+	.logo{
+		max-width: 25em;
+		width: 75%;
+		padding-top: 100%;
+		background-size: contain;
+	}
+	.hamburger{
+		display: unset;
+		height: 4em;
+		width: 4em;
+		cursor: pointer;
+		overflow: hidden;
+		float: left;
+		
+	}
+
+	.bar1, .bar2, .bar3 {
+		width: 2.8125em;
+		height: .42825em;
+		background-color: #eaeaea;
+		margin: auto;
+		margin-top: .42825em;
+		transition: 0.4s;
+		border-radius: .285em;
+	}
+	.change.bar1{
+		-webkit-transform: rotate(-45deg) translate(-.6855em, .7em) ;
+		transform: rotate(-45deg) translate(-.6855em, .7em) ;
+	}
+	.change.bar2{
+		opacity: 0;
+	}
+	.change.bar3{
+		-webkit-transform: rotate(45deg) translate(-.45em, -.5em) ;
+		transform: rotate(45deg) translate(-.45em, -.5em);
+	}
+
+	.overlay{
+		display: unset;
+		position: fixed;
+		height: 100%;
+		top: 4em;
+		bottom: 0;
+		left: -100%;
+		background-color: rgba(0, 0, 0, .5);
+		width: 100%;
+	}
+	.overlay, .overlay *{
+		transition: .5s;
+		z-index: 998;
+	}
+	
+	.overlay.change{
+		left: 0;
+	}
+
+	.menu a{
+		text-decoration: none;
+	}
+	.menuOption{
+		height: 3em;
+		width: 1000px;
+		margin: auto;
+		margin-bottom: .2em;
+		background-color: #CC3434;
+		text-align: center;
+		padding: .35em;
+		display: table-cell;
+	}
+	
+	.map iframe{
+		position: relative;
+		top: 0;
+		width: 100%;
+		height: 10em;
+		z-index: 0;
+	}
+
+	.map{
+		position: relative;
+		padding-top: 5%;
+		width: 100%;
+	}
+
+	.newsimage{
+		margin-top: 2em;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:100%
+	}
+}
