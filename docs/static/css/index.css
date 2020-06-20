@@ -415,27 +415,35 @@ h2{
 
 	.parallax{
 		/* Full height */
-		width: 100%;
-
+		position: absolute;
 		display: block;
  	 	margin-left: auto;
  		margin-right: auto;
 		
 	}
 	.img1{
-		width: 380px;
+		position: absolute;
+		display: block;
+ 	 	margin-left: auto;
+ 		margin-right: auto;
 		background-image: url('../media/web11 bw.png');
 
 		
 	}
 	.img2{
-		width: 380px;
+		position: absolute;
+		display: block;
+ 	 	margin-left: auto;
+ 		margin-right: auto;
 		background-image: url('../media/web5.png');
 		padding-top: 35em;
 
 	}
 	.img3{
-		width: 380px;
+		position: absolute;
+		display: block;
+ 	 	margin-left: auto;
+ 		margin-right: auto;
 		background-image: url('../media/web2.png');
 		padding-top: 45em;
 	}
