@@ -415,31 +415,27 @@ h2{
 
 	.parallax{
 		/* Full height */
-		height: 100%;
-		width: auto;
-		box-sizing: border-box;
+		width: 100%;
+
 		display: block;
- 	 margin-left: auto;
- 	 margin-right: auto;
+ 	 	margin-left: auto;
+ 		margin-right: auto;
 		
-		
-		/* Create the parallax scrolling effect */
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 	.img1{
+		width: 380px;
 		background-image: url('../media/web11 bw.png');
 
 		
 	}
 	.img2{
+		width: 380px;
 		background-image: url('../media/web5.png');
 		padding-top: 35em;
 
 	}
 	.img3{
+		width: 380px;
 		background-image: url('../media/web2.png');
 		padding-top: 45em;
 	}
